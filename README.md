@@ -1,6 +1,6 @@
 # api-mock
 
-- git pull <repo>
-- code <repo-folder>
+- git pull [repository]
+- code [repository-folder]
 - npm install
 - npm run dev

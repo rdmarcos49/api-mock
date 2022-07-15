@@ -1,0 +1,188 @@
+{
+  "actions": {
+      "subscribe": {
+          "method": "PUT",
+          "href": "http://localhost:8080/o/headless-delivery/v1.0/sites/{siteId}/blog-postings/subscribe"
+      },
+      "unsubscribe": {
+          "method": "PUT",
+          "href": "http://localhost:8080/o/headless-delivery/v1.0/sites/{siteId}/blog-postings/unsubscribe"
+      },
+      "create": {
+          "method": "POST",
+          "href": "http://localhost:8080/o/headless-delivery/v1.0/sites/{siteId}/blog-postings"
+      }
+  },
+  "facets": [],
+  "items": [
+    {
+      "actions": {
+          "get": {
+              "method": "GET",
+              "href": "http://localhost:8080/o/headless-delivery/v1.0/blog-postings/{blogPostingId}"
+          },
+          "replace": {
+              "method": "PUT",
+              "href": "http://localhost:8080/o/headless-delivery/v1.0/blog-postings/{blogPostingId}"
+          },
+          "update": {
+              "method": "PATCH",
+              "href": "http://localhost:8080/o/headless-delivery/v1.0/blog-postings/{blogPostingId}"
+          },
+          "delete": {
+              "method": "DELETE",
+              "href": "http://localhost:8080/o/headless-delivery/v1.0/blog-postings/{blogPostingId}"
+          }
+      },
+      "alternativeHeadline": "Esta entrada es para probar los selectores del blog",
+      "articleBody": "<h1>h1 en el content !</h1>",
+      "creator": {
+          "additionalName": "",
+          "contentType": "UserAccount",
+          "familyName": "Test",
+          "givenName": "Test",
+          "id": 38201,
+          "name": "Test Test"
+      },
+      "customFields": [],
+      "dateCreated": "2022-07-07T15:02:52Z",
+      "dateModified": "2022-07-12T14:47:22Z",
+      "datePublished": "2022-07-07T15:00:00Z",
+      "description": "Abstract custom configurado desde entrada de blog!",
+      "encodingFormat": "text/html",
+      "friendlyUrlPath": "otra-entrada-de-blog",
+      "headline": "Otra entrada de blog",
+      "id": 38459,
+      "image": {
+          "caption": "<p>Taza de greys anatomy</p>",
+          "contentUrl": "/documents/38321/38333/20200526_154157.jpg/0ce173fc-2011-2cc6-61e8-fb0a56d72784?t=1657206172965",
+          "imageId": 38463
+      },
+      "keywords": [
+          "tag1",
+          "tag2",
+          "tag3"
+      ],
+      "numberOfComments": 0,
+      "relatedContents": [],
+      "siteId": 20121,
+      "taxonomyCategoryBriefs": [
+          {
+              "taxonomyCategoryId": 39529,
+              "taxonomyCategoryName": "destacado"
+          }
+      ]
+  },
+      {
+          "actions": {
+              "get": {
+                  "method": "GET",
+                  "href": "http://localhost:8080/o/headless-delivery/v1.0/blog-postings/{blogPostingId}"
+              },
+              "replace": {
+                  "method": "PUT",
+                  "href": "http://localhost:8080/o/headless-delivery/v1.0/blog-postings/{blogPostingId}"
+              },
+              "update": {
+                  "method": "PATCH",
+                  "href": "http://localhost:8080/o/headless-delivery/v1.0/blog-postings/{blogPostingId}"
+              },
+              "delete": {
+                  "method": "DELETE",
+                  "href": "http://localhost:8080/o/headless-delivery/v1.0/blog-postings/{blogPostingId}"
+              }
+          },
+          "alternativeHeadline": "Subtitulo tuki tuki!!!!",
+          "articleBody": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><table border=\"1\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%\"><tbody><tr><td>Row 1 column 1</td><td>Row 1 column 2</td><td>Row 1 column 3</td></tr><tr><td>Row 2 column 1</td><td>Row 2 column 2</td><td>Row 2 column 3</td></tr><tr><td>Row 3 column 1</td><td>Row 3 column 2</td><td>Row 3 column 3</td></tr></tbody></table><hr /><div data-embed-id=\"4BIQvdIppyk\" data-styles=\"{&quot;width&quot;:&quot;100%&quot;}\" class=\"embed-responsive embed-responsive-16by9\" style=\"width:100%\"><iframe allow=\"autoplay; encrypted-media\" allowfullscreen=\"\" height=\"342.99578857421875\" frameborder=\"0\" src=\"https://www.youtube.com/embed/4BIQvdIppyk?rel=0\" width=\"609.3781127929688\"></iframe></div><hr /><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p><p><img data-fileentryid=\"38339\" src=\"/documents/portlet_file_entry/20121/2ae031f2c0aacafe06b66050e50c74d5.jpg/6d7bf16c-5d1b-b0b5-be93-8a2b7fa9d93f?imagePreview=1\" /><br /> </p><hr /><p> </p>",
+          "creator": {
+              "additionalName": "",
+              "contentType": "UserAccount",
+              "familyName": "Test",
+              "givenName": "Test",
+              "id": 38201,
+              "name": "Test Test"
+          },
+          "customFields": [],
+          "dateCreated": "2022-07-07T13:53:47Z",
+          "dateModified": "2022-07-11T14:28:08Z",
+          "datePublished": "2022-07-07T13:52:00Z",
+          "description": "Otro custom abstract para ver que sucede.",
+          "encodingFormat": "text/html",
+          "friendlyUrlPath": "tuki-tuki",
+          "headline": "Tuki tuki",
+          "id": 38423,
+          "image": {
+              "caption": "<p>Tuki!</p>",
+              "contentUrl": "/documents/38321/38333/WhatsApp+Image+2022-05-08+at+8.47.54+PM+%281%29.jpeg/2a319109-1617-e911-8386-472c5ccd2d17?t=1657202027632",
+              "imageId": 38427
+          },
+          "keywords": [
+              "tag3",
+              "tag4",
+              "tag5"
+          ],
+          "numberOfComments": 0,
+          "relatedContents": [],
+          "siteId": 20121,
+          "taxonomyCategoryBriefs": []
+      },
+      {
+          "actions": {
+              "get": {
+                  "method": "GET",
+                  "href": "http://localhost:8080/o/headless-delivery/v1.0/blog-postings/{blogPostingId}"
+              },
+              "replace": {
+                  "method": "PUT",
+                  "href": "http://localhost:8080/o/headless-delivery/v1.0/blog-postings/{blogPostingId}"
+              },
+              "update": {
+                  "method": "PATCH",
+                  "href": "http://localhost:8080/o/headless-delivery/v1.0/blog-postings/{blogPostingId}"
+              },
+              "delete": {
+                  "method": "DELETE",
+                  "href": "http://localhost:8080/o/headless-delivery/v1.0/blog-postings/{blogPostingId}"
+              }
+          },
+          "alternativeHeadline": "Esta entrada es para probar los selectores del blog",
+          "articleBody": "<h1>h1 en el content !</h1>",
+          "creator": {
+              "additionalName": "",
+              "contentType": "UserAccount",
+              "familyName": "Test",
+              "givenName": "Test",
+              "id": 38201,
+              "name": "Test Test"
+          },
+          "customFields": [],
+          "dateCreated": "2022-07-07T15:02:52Z",
+          "dateModified": "2022-07-12T14:47:22Z",
+          "datePublished": "2022-07-07T15:00:00Z",
+          "description": "Abstract custom configurado desde entrada de blog!",
+          "encodingFormat": "text/html",
+          "friendlyUrlPath": "otra-entrada-de-blog",
+          "headline": "Otra entrada de blog",
+          "id": 38459,
+          "image": {
+              "caption": "<p>Taza de greys anatomy</p>",
+              "contentUrl": "/documents/38321/38333/20200526_154157.jpg/0ce173fc-2011-2cc6-61e8-fb0a56d72784?t=1657206172965",
+              "imageId": 38463
+          },
+          "keywords": [
+              "tag1",
+              "tag2",
+              "tag3"
+          ],
+          "numberOfComments": 0,
+          "relatedContents": [],
+          "siteId": 20121,
+          "taxonomyCategoryBriefs": [
+              {
+                  "taxonomyCategoryId": 39529,
+                  "taxonomyCategoryName": "destacado"
+              }
+          ]
+      }
+  ]
+}
